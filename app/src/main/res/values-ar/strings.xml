@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">علاج</string>
+
+        <string name="title_mcit_header_main">وزارة الاتصالات وتكنولوجيا المعلومات</string>
+        <string name="title_activity_main">وزارة الاتصالات وتكنولوجيا المعلومات</string>
+
+
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+
+        <string name="action_settings">الضبط</string>
+        <string name="title_activity_login">تسجيل دخول</string>
+
+        <string name="title_activity_admin_tabe">مدير</string>
+        <string name="section_format">Hello World from section: %1$d</string>
+        <string name="RecyclerAdminFragment">تم التسجيل بنجاح</string>
+
+        <!-- TODO: spinners array  -->
+        <string-array name="security_question_array">
+            <item>-قم بالإجابة على احد اسئلة الامان-</item>
+            <item>أول مدرس؟</item>
+            <item>أول صديق؟</item>
+            <item>أول رقم هاتف؟</item>
+        </string-array>
+
+        <string-array name="Degree">
+            <item>-إختار الدرجه-</item>
+            <item>10</item>
+            <item>9</item>
+        </string-array>
+
+        <string name="new_message_notification_title_template">New Broadcast: %1$s</string>
+
+        <!-- TODO: remove this placeholder text -->
+        <string name="new_message_notification_placeholder_text_template">You said %1$s and lorem ipsum
+        dolor sit amet, consectetur adipiscing elit. Etiam non enim magna. Morbi dictum, velit vel
+        semper venenatis, magna odio volutpat velit, at ullamcorper nulla lacus sed turpis.
+        Pellentesque vitae metus elit, nec tincidunt tellus. Integer sed nisl sem, ullamcorper
+        ornare lacus. Duis ac mauris sed massa congue volutpat. Donec sed erat sit amet turpis
+        viverra rhoncus sit amet nec magna. Donec lacinia ligula at libero volutpat volutpat nec nec
+        tortor.
+    </string>
+        <string name="new_candidates_added">تم إضافة مرشحين جدد</string>
+
+        <string name="action_share">مشاركة</string>
+        <string name="action_reply">رد</string>
+
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="title_activity_user_tabe">شريط المستخدم</string>
+
+        <!-- TODO: Main Activity Strings -->
+        <string name="login_title">دخول</string>
+        <string name="communicate_title">تواصل</string>
+        <string name="website_title">الموقع الالكتروني</string>
+        <string name="contact_us_title">تواصل معنا</string>
+        <string name="about_app_title">عن التطبيق</string>
+
+        <!-- TODO: Dialog alert titles -->
+        <string name="dialog_quit_title">خروج</string>
+
+        <!-- TODO: Dialog alert Message -->
+        <string name="dialog_quit_message">هل تريد إغلاق التطبيق؟!!</string>
+
+        <!-- TODO: Dialog alert Button -->
+        <string name="dialog_quit_negative_button">إلغاء</string>
+        <string name="dialog_quit_positive_button">تاكيد</string>
+
+        <!--  TODO: Login Fragment -->
+        <string name="logging_progress_message">جاري الدخول..</string>
+        <string name="Type_Admin_Name">قم بكتابة رقم المستخدم التعريفي</string>
+        <string name="Type_Admin_Password">قم بكتابة كلمة المرور</string>
+        <string name="ID_hint">الرقم التعريفي</string>
+        <string name="password_hint">كلمة المرور</string>
+        <string name="show_hint">إظهار</string>
+        <string name="hide_hint">إخفاء</string>
+        <string name="Login_Success">دخول بنجاح</string>
+        <string name="Login_failed">تاكد من الاسم الصحيح وكلمة المرور..او قم بمراجعة مدير التطبيق </string>
+        <string name="tryagain">حاول مرة اخرى</string>
+
+        <!--  TODO: Website Fragment -->
+        <!-- TODO: Progress Dialog  titles -->
+        <string name="loading_progress_dialog_message">تحميل...</string>
+
+        <!--  TODO: Contact us  vFragment -->
+        <!-- TODO: Progress Dialog  titles -->
+        <string name="choose_email">إختار تطبيق البريد:</string>
+        <string name="version"> 1.0.0النسخة</string>
+        <string name="contact_developer">تواصل معا المطور</string>
+
+        <!--  TODO: Admin TabeActivity -->
+        <string name="broadcast_tabe_lable">التعميمات</string>
+        <string name="my_broadcast_tabe_lable">تعميماتي</string>
+        <string name="insert_tabe_lable">إضافة تعميم</string>
+        <string name="voting_tabe_lable">تصويت</string>
+        <string name="questionnaire_tabe_lable">إستبيانات</string>
+        <string name="admin_info_tabe_lable">معلوماتي</string>
+
+        <!--  TODO:Broadcast Fragment -->
+        <string name="hi_greeting">مرحبا!</string>
+        <string name="not_item_found">لا يوجد عناصر</string>
+        <string name="nothing_to_search_it">لا يوجد عناصر للبحث</string>
+
+        <!--  TODO:My Broadcast Fragment -->
+        <string name="sorry">نأسف..</string>
+
+        <!--  TODO:My Insert Fragment -->
+        <string name="ignore_case_for_broadcast">-قم بإختيار نوع التعميم-</string>
+        <string name="insert_seccfual">تم الاضافة بنجاح</string>
+        <string name="insert_failed">فشل في الإضافة</string>
+        <string name="type_broadcast_lable">قم بكتابة عنوان التعميم</string>
+        <string name="choose_broadcast_type">إختار نوع التعميم</string>
+        <string name="type_broadcast_contanet">قم بكتابة محتوي التعميم</string>
+        <string name="broadcast_title_hint">عنوان التعميم</string>
+        <string name="content_hint">المحتوي</string>
+        <string name="date_hint">التاريخ</string>
+        <string name="type_broadcast_date">إختار تاريخ التعميم</string>
+        <string name="insert_broadcast">إضافة تعميم</string>
+        <string name="no_internet_connection">لا يوجد إتصال بالإنترنت</string>
+        <string name="cal">التقويم</string>
+
+
+
+
+        <!--  TODO:Vote Fragment -->
+        <string name="nomination_no_hint">الترشيح رقم:  </string>
+        <string name="candidate1">المرشح الاول</string>
+        <string name="candidate2">المرشح الثاني</string>
+        <string name="candidate3">المرشح الثالت</string>
+        <string name="candidate4">المرشح الرابع</string>
+        <string name="candidate5">المرشح الخامس</string>
+        <string name="candidate6">المرشح السادس</string>
+        <string name="candidate7">المرشح السابع</string>
+        <string name="candidate8">المرشح الثامن</string>
+        <string name="candidate9">المرشح التاسع</string>
+        <string name="candidate10">المرشح العاشر</string>
+        <string name="attention_dialog_title">مسح!</string>
+        <string name="attention_message">لقد قمت بالتصويت مسبقا!</string>
+        <string name="connection_failed">فشل الاتصال</string>
+        <string name="ignore_case_for_degree">-إختار الدرجه-</string>
+        <string name="vote_date">تاريخ الترشيح</string>
+        <string name="insert_candidate">إضافة المرشحين</string>
+
+
+
+        <!--  TODO:info user Fragment -->
+        <string name="update_progress_message">جاري التحديث...</string>
+        <string name="retype_user_name">اعد كتابة اسم المستخدم</string>
+        <string name="retype_password">قم بكتابة كلمة المرور الجديده</string>
+        <string name="must_retype_password">يجب إعادة كتابة كلمة المرور الجديده</string>
+        <string name="name">الإسم:</string>
+        <string name="user_name_hint">إسم المستخدم</string>
+        <string name="old_password_hint">كلمة المرور الحاليه</string>
+        <string name="new_password_hint">كلمة المرور الجديد</string>
+        <string name="repeat_password_hint">إعادة كلمة المرور</string>
+        <string name="current_pass_is_incorrect">كلمة المرور الحاليه غير صحيحه</string>
+        <string name="passwords_do_not_match">كلمات المرور غير متطابقة.أعد المحاوله</string>
+        <string name="save_change">حفظ التغيرات</string>
+        <string name="write_current_password">قم بكتابة كلمة السر الحالية!</string>
+        <string name="pass_changed_successfully">تم تغير كلمة المرور بنجاح</string>
+
+
+
+        <!--  TODO:User Vote  Fragment -->
+        <string name="select_degree_for_first">إختر درجة المرشح الاول</string>
+        <string name="select_degree_for_second">إختر درجة المرشح الثاني</string>
+        <string name="select_degree_for_third">إختر درجة المرشح الثالث</string>
+        <string name="select_degree_for_fourth">إختر درجة المرشح الرابع</string>
+        <string name="select_degree_for_fifth">إختر درجة المرشح الخامس</string>
+        <string name="select_degree_for_six">إختر درجة المرشح السادس</string>
+        <string name="can_not_give_same_degree">لا يمكن اعطاء الموظفين نفس الدرجة</string>
+        <string name="type_first_name">أدخل إسم المرشح الاول</string>
+        <string name="type_second_name">أدخل إسم المرشح الثاني</string>
+        <string name="type_third_name">أدخل إسم المرشح الثالث</string>
+        <string name="type_date">أدخل تاريخ التصويت</string>
+        <string name="for_admin">خاص بالمدير</string>
+        <string name="number_of_voter">عدد المصوتين:</string>
+        <string name="voter_counter">0</string>
+
+    
+        <!--  TODO:show Dialog -->
+        <string name="done_button">تم</string>
+        <string name="broadcast_single">تعميم</string>
+        <string name="edit_broadcast">تعديل التعميم</string>
+
+        <!--  TODO:show Dialog -->
+        <string name="cancel_button">إلغاء</string>
+        <string name="save_button">حفظ</string>
+        <string name="user_id_dos_not_correct">لم يتم العثور علي المستخدم..قم بمراجعة المدير</string>
+        <string name="password_dos_not_correct">كلمة المرور غير صحيحه</string>
+        <string name="deleting_progress">جاري المسح…</string>
+        <string name="delete_successfully">تم المسح بنجاح</string>
+        <string name="delete_qution">هل تريد مسح التعميم؟</string>
+        <string name="delete_hint">مسح</string>
+
+        <!--  TODO:admin vote fragment -->
+
+        <string name="vote">صَوت</string>
+        <string name="degrees">الدرجات</string>
+
+        <!--  TODO:browser activity -->
+
+        <string name="attintion_dialog_gu">تحذير !</string>
+        <string name="did_u_comp_qu">هل قمت بملأ الاستبيان بصوره صحيحه؟لايمكن الرجوع لهذا الاستبيان مره اخرى!</string>
+        <string name="yes">نعم</string>
+        <string name="no">لا</string>
+        <string name="press_here">إضغط هنا</string>
+        <string name="you_have_already_submit_qu">لقد قمت بملأ الاستبيان مسبقا</string>
+        <string name="android_lollipop_material">Android | Lollipop | Material | Login | Design | Activity | Blog | Facebook | Google | Kitkat | Marshmallow | Google</string>
+
+        <!--  TODO:nimonation activity -->
+        <string name="title_activity_nomination">واجهة الترشيح</string>
+        <string name="employees">موظفين</string>
+        <string name="engineers">مهندسين</string>
+        <string name="workers">عمال</string>
+
+        <!--  TODO:go to nimonation  -->
+
+        <string name="vote_now">صوت الان..</string>
+        <string name="vote_declaer">تتم عملية التصويت لإختيار الموظف /العامل المثالي عن طريق تصويت الموظفين بواسطة تطبيق  الاندرويد ،مرحلة التصويت هي المرحله النهائية من مراحل إختيار الموظف /العامل المثالي حيث تسبقها مرحلة الترشيح عن طريق معايير الاختيار المعتمدة من قبل مجلس الوزراء ثم مرحلة فرز المرشحين من قبل اللجنه.</string>
+        <string name="can_not_give_worker_same_degree">لا يمكنك إعطاء العمال نفس الدرجة</string>
+        <string name="sure_message">هل انت متاكد من هذه الدرجات؟لايمكنك التراجع عن التصويت..!</string>
+    <string name="remedy2019">© علاجي 2019</string>
+    <string name="create_account">إنشاء حساب جديد</string>
+    <string name="forget_password">نسيت كلمة المرور؟</string>
+    <string name="emergency_situation">حالة طارئة</string>
+    <string name="title_activity_emergancy_map">خرائط</string>
+    <string name="full_name">الأسم الكامل</string>
+    <string name="_249">+249</string>
+    <string name="confirm_password_hint">تاكيد كلمة المرور</string>
+    <string name="signup">تسجيل</string>
+    <string name="answer_qution">أجب على السؤال</string>
+    <string name="login_disc">لإستخدام تطبيق ريميدي عليك تسجيل الدخول اولا</string>
+    <string name="have_account">لديك حساب ؟</string>
+    <string name="registration">إنشاء حساب</string>
+    <string name="title_hospitals">مستشفيات</string>
+    <string name="title_Laps">معامل</string>
+    <string name="title_doctors">أطباء</string>
+    <string name="recover_pass">إستعلدة كلمة المرور</string>
+    <string name="reset_passord">تعين كلمة مرور</string>
+    <string name="recover_your_pass">إستعادة كلمة المرور</string>
+    <string name="type_id_num">أكتب الرقم التعريفي</string>
+    <string name="type_password">أكتب كلمة مرور</string>
+    <string name="Specialization">التخصص</string>
+    <string name="title_appointments">حجوزات</string>
+    <string name="profile_name">الإسم</string>
+    <string name="profile_code">الفئة</string>
+    <string name="logout">خروج</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="call">إتصال</string>
+    <string name="appointment">حجوزات</string>
+    <string name="time">الزمن</string>
+    <string name="appointment_num">رقم الحجز</string>
+    <string name="appo_price">رسوم الحجز</string>
+    <string name="patient_name">إسم المريض</string>
+    <string name="work_place">مكان العمل</string>
+    <string name="title_id">الرقم التعريفي :</string>
+    <string name="title_name">الإسم :</string>
+    <string name="title_specialization">التخصص :</string>
+    <string name="title_phone">الهاتف :</string>
+    <string name="title_rate">التقيم :</string>
+    <string name="title_location">الموقع :</string>
+    <string name="title_address">العنوان :</string>
+    <string name="get_appointment">إحجز</string>
+    <string name="title_price">رسوم الحجز :</string>
+    <string name="sdg">جنية</string>
+    <string name="title_doc_name">إسم الطبيب</string>
+    <string name="date_format">dd-mm-yyyy</string>
+    <string name="time_format">HH:MM</string>
+    <string name="pan">رقم البطاقة</string>
+    <string name="pan_hint">يجب ان يحتوي 16 او 19 رقم</string>
+    <string name="ex_date_hint">YYMM</string>
+    <string name="expire">التاريخ :</string>
+    <string name="ipin_hint">****</string>
+    <string name="ipin">****</string>
+    <string name="title_activity_map">Map</string>
+    <string name="delete">مسح</string>
+    <string name="edit">تعديل</string>
+    <string name="edit_appointment">تعديل الحجز</string>
+    <string name="payment_qution">هل تريد الدفع للحجز الان؟</string>
+    <string name="later_button">لاحقا</string>
+    <string name="alert_pay_title">دفع إلكتروني!</string>
+    <string name="exp_date">تاريخ الانتهاء</string>
+    <string name="pay">دفع</string>
+    <string name="electronic_payment">الدفع الالكتروني</string>
+    <string name="ok">حسنآ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="select_qustion">إختر سؤال</string>
+    <string name="pass_dosnot_much">كلمات المرور غير متطابقة</string>
+    <string name="enter_pass">الرجاء إدخال كلمة المرور</string>
+    <string name="phone_less_than_ten">رقم العاتف اقل من 10 ارقام</string>
+    <string name="type_patient_name">الرجاء إدخال إسم المريض</string>
+    <string name="type_patient_phone">الرجاء إدخال رقم هاتف المريض</string>
+    <string name="enter_pan">الرجاء إدخال رقم البطاقه</string>
+    <string name="enter_ipin">الرجاء إدخال رقم الانترنت السري بصورة صحيحه</string>
+    <string name="search">بحث</string>
+    <string name="filter">فلترة</string>
+    <string name="icu_qution">تاكد من انك تريد حجز غرفة عناية مركزة؟</string>
+    <string name="icu_attintion_title">تنبية!</string>
+    <string name="icu_roul">يجب الذهاب للمستشفى فورا خلال,غرفة العناية متاحه فقط لمدة 24 ساعه!</string>
+    <string name="state">المحلية</string>
+    <string name="women">نساء وتوليد</string>
+    <string name="neurologists">Neurologists</string>
+    <string name="general">عام</string>
+    <string name="children">أطفال</string>
+    <string name="title_state">المحليه :</string>
+    <string name="amount">المبلع</string>
+    <string name="alert_icu_room">إحجز غرفة عناية</string>
+    <string name="doc_name">طبيب</string>
+    <string name="icu">العناية المركزة</string>
+    <string name="show_places_filed">فشل إظهار المستشتسات</string>
+    <string name="surgery">جراحة</string>
+    <string name="title_activity_home_">الواجهة الرئيسيه</string>
+    <string name="title_activity_hospitals">المستشفيات</string>
+    <string name="title_dashboard">لوحة التحكم</string>
+    <string name="title_home">الرئسية</string>
+    <string name="title_notifications">إشعارات</string>
+    <string name="pharmacy">صيدليات</string>
+    <string name="queue_id">رقم المتابعه</string>
+    <string name="attion_queue_id_message">إستخدم الرقم لجميع معاملاتك المستقبلية,تاكد من حفظ الرقم:</string>
+    <string name="account" >حساب</string>
+    <string name="patients_list">قائمة المرضى</string>
+    <string name="patient" >مريض</string>
+    <string name="title_ptients">عدد المقابلات :</string>
+    <string name="doctor_profile">ملف الطبيب</string>
+    <string name="symptoms">الاعراض</string>
+    <string name="tests">الاختبارات</string>
+    <string name="results">النتائج</string>
+    <string name="diagnosis">التشخيص</string>
+    <string name="midicine">الدواء</string>
+    <string name="pharmacist_note">ملاحظات الصيدلي</string>
+    <string name="title_no_appoint">الحجوزات :</string>
+    <string name="patient_lable">المريض :</string>
+    <string name="title_my_profile">الملف الشخصي</string>
+    <string name="doctor">طبيب</string>
+    <string name="patients">مرضى</string>
+    <string name="medicine">الدواء</string>
+    <string name="check_patient">فحص المريض</string>
+    <string name="my_appointments">حجوزاتي</string>
+    <string name="update_info">تحديث المعلومات</string>
+    <string name="take_patient">إستقبال مريض</string>
+    <string name="pharmacist">صيدلي</string>
+    <string name="labortory">فني معمل</string>
+    <string name="title_patient">مريض</string>
+    <string name="title_report">تقارير</string>
+    <string name="one_person">عدد الاشخاص</string>
+    <string name="hospital">مستشفى</string>
+    <string name="from">من :</string>
+    <string name="to">إلي :</string>
+    <string name="submit">أرسل</string>
+    <string name="symptoms_lable">الاعراض :</string>
+    <string name="tests_lable">الاختبارات :</string>
+    <string name="results_lable">النتائج :</string>
+    <string name="diagnosis_lable">التشخيص :</string>
+    <string name="medicine_lable">الدواء :</string>
+    <string name="pharmacist_note_lable">ملاحظة الصيدلي :</string>
+    <string name="queue_id_lable">رقم المتابعة :</string>
+    <string name="doctor_id_lable">رقم الطبيب :</string>
+    <string name="patient_info">بيانات المريض</string>
+    <string name="khartum">الخرطوم</string>
+    <string name="select_state">-إختر محلية-</string>
+    <string name="bahre">بحري</string>
+    <string name="omdurman">امدرمان</string>
+    <string name="select_category">-إختر نوع المستخدم-</string>
+    <string name="patient_user">مريض</string>
+    <string name="hospital_user">مستشفى</string>
+    <string name="doctor_user">طبيب</string>
+    <string name="labtorty_user">طبيب معمل</string>
+    <string name="title_activity_laboratory_user">حساب فني معمل</string>
+    <string name="title_activity_pharmacist_user">حساب صيدلي</string>
+    <string name="pharmasict_user">صيدلي</string>
+    <string name="please_select_state">Please select state</string>
+    <string name="please_select_user_category">Please select user category</string>
+    <string name="title_pharmacy">صيدليات</string>
+    <string name="no_appointment_ava">لا توجد حجوزات</string>
+    <string name="my_diagnisis">مقابلاتي</string>
+    <string name="no_meet">لاتوجد مقابلات</string>
+    <string name="doctor_lable">الطبيب :</string>
+    <string name="date_lable">التاريخ :</string>
+    <string name="enter_your_ipin">الرجاء ادخال رقم الانترنت السري</string>
+    <string name="enter_pan_correctly">الرجاء إدخال رقم البطاقه بصورة صحيحه,16 او 19 رقم</string>
+    <string name="payment_failed">Payment faild..try again</string>
+    <string name="display_failed">Display failed</string>
+    <string name="old_date">التاريخ الذي ادخلتة قديم</string>
+    <string name="patient_num">عدد المرضي :</string>
+    <string name="appointments_num">عدد الحجوزات :</string>
+    <string name="report_by_date">تقرير بالتاريخ</string>
+    <string name="doctors_list">قائمة الاطباء :</string>
+    <string name="doctor_num">عدد الإطباء :</string>
+    <string name="doctors_list_sp">--قائمة الإطباء--</string>
+    <string name="type_from_date">الرجاء إدخال  تاريخ \'من\' </string>
+    <string name="type_to_date">الرجاء إدخال تاريخ \'إلى\' !</string>
+    <string name="nothing_to_filter_it">لا يوجد شئ</string>
+    <string name="no_thing_select_it">لم يتم التحديد لعملية الفرز</string>
+    <string name="filter_it">فرز ب:</string>
+    <string name="labs">معامل</string>
+    <string name="delete_appointment">هل انت متاكد من انك تريد إلغاء الحجز؟</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="doc_phone">هاتف الطبيب</string>
+    <string name="appoint_address">عنوان الحجز</string>
+    <string name="delete_filed">فشل المسح!</string>
+    <string name="todo">TODO</string>
+    <string name="period_hint">الفترة :</string>
+    <string name="period">-الفترة-</string>
+    <string name="am">صباح</string>
+    <string name="pm">مساء</string>
+    <string name="choose_period">Choose period!</string>
+</resources>

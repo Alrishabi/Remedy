@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HospitalReportsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LL_docList"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/doctors_list"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/sp_doctor_names"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+             </Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LL_docNum"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/doctor_num"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/doct_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/patient_num"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/patient_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/appointments_num"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/appointment_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/from"
+                        android:textSize="25sp"
+                        />
+                    <EditText
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:id="@+id/et_from_date"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="@string/date_format"
+                        android:textColor="@color/colorPrimaryLight"
+                        android:textSize="20sp"
+                        android:selectAllOnFocus="true"
+                        android:background="#39dcdbdb"
+                        android:autofillHints="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/to"
+                        android:textSize="25sp"
+                        />
+
+                    <EditText
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:id="@+id/et_to_date"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:hint="@string/date_format"
+                        android:textColor="@color/colorPrimaryLight"
+                        android:textSize="20sp"
+                        android:selectAllOnFocus="true"
+                        android:background="#39dcdbdb"
+                        android:autofillHints="" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/b_submit"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/ripple_effect"
+                    android:textSize="20dp"
+                    android:text="@string/submit"
+                    android:textColor="#eceae9"
+                    android:textStyle="bold"
+                    tools:ignore="SpUsage" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.hiba.remedy">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_remedy_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_remedy_app"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.PatientAppointmentActivity"></activity>
+        <activity android:name=".activities.PatientProfileActivity" />
+        <activity android:name=".activities.DisplayDoctorAppointmentActivity" />
+        <activity android:name=".activities.FilterPharmacistAndLabsActivity" />
+        <activity
+            android:name=".activities.PharmacistUserActivity"
+            android:label="@string/title_activity_pharmacist_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.LaboratoryUserActivity"
+            android:label="@string/title_activity_laboratory_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.DisplayDoctorPatientActivity" />
+        <activity android:name=".activities.DoctorProfile" />
+        <activity android:name=".activities.DisplayPharmacyActivity" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.DoctorsActivity" />
+        <activity
+            android:name=".activities.HospitalsAccountActivity"
+            android:label="@string/title_activity_hospitals"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activities.FilterActivity" />
+        <activity android:name=".activities.PaymentActivity" />
+        <activity android:name=".activities.GetAnAppointmentActivity" />
+        <activity android:name=".activities.ProfileActivity" />
+        <activity android:name=".activities.SecurityQuestionActivity" />
+        <activity android:name=".activities.RegistrationActivity" />
+        <activity android:name=".activities.DisplayDocFromHospitalActivity" />
+        <activity android:name=".activities.PatientReportActivity" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="@string/title_activity_home_" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCVvO6SSWxiiU2z3VQ9z8h7Cqi72eo62Vg" />
+
+        <activity
+            android:name=".activities.EmergencyMapActivity"
+            android:label="@string/title_activity_emergancy_map" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_hospitals"
+        android:icon="@drawable/ic_hospitals_nav"
+        android:title="@string/title_hospitals"/>
+
+    <item
+        android:id="@+id/navigation_doctors"
+        android:icon="@drawable/ic_doctors_nav"
+        android:title="@string/title_doctors"/>
+
+    <item
+        android:id="@+id/navigation_Laps"
+        android:icon="@drawable/ic_lab_microscope_nav"
+        android:title="@string/title_Laps"
+        />
+
+       <item
+        android:id="@+id/navigation_pharmacy"
+        android:icon="@drawable/ic_pharmacy_symbol"
+        android:title="@string/title_pharmacy"
+        />
+
+    <item
+        android:id="@+id/navigation_my_profile"
+        android:icon="@drawable/ic_profile_nave"
+        android:title="@string/title_my_profile"
+        />
+
+</menu>

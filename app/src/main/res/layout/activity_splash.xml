@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.SplashActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+   >
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="80sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="شركة\nالساطع"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="285dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:visibility="visible"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:background="@drawable/hospital"
+            tools:layout_editor_absoluteX="133dp"
+            tools:layout_editor_absoluteY="285dp"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_weight="0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:text="@string/remedy2019"/>
+
+    <TextView
+        android:id="@+id/version_name"
+        android:layout_weight="0"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/version"/>
+</LinearLayout>

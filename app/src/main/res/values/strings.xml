@@ -1,0 +1,400 @@
+<resources>
+    <string name="app_name">Remedy</string>
+
+
+    <string name="title_mcit_header_main">Ministry of Communications and Information Technology</string>
+    <string name="title_activity_main">Ministry of Communications and Information Technology</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="title_activity_admin_tabe">Admin</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="RecyclerAdminFragment">Login successfully</string>
+
+    <!-- TODO: spinners array  -->
+    <string-array name="security_question_array">
+        <item>-answer one of security questions-</item>
+        <item>First teacher?</item>
+        <item>First friend?</item>
+        <item>First phone number?</item>
+    </string-array>
+
+    <string-array name="Degree">
+        <item>-إختار الدرجه-</item>
+        <item>10</item>
+        <item>9</item>
+    </string-array>
+
+    <string name="new_message_notification_title_template">New Broadcast: %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template">
+    </string>
+
+    <string name="new_candidates_added">New candidates added</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_reply">Reply</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_user_tabe">UserTabeActivity</string>
+
+    <!-- TODO: Main Activity Strings -->
+    <string name="login_title">Login</string>
+    <string name="communicate_title">Communicate</string>
+    <string name="website_title">Website</string>
+    <string name="contact_us_title">Contact us</string>
+    <string name="about_app_title">About app</string>
+    <!-- TODO: Dialog alert titles -->
+    <string name="dialog_quit_title">Quit</string>
+    <!--  TODO: Dialog alert Message -->
+    <string name="dialog_quit_message">Do You Want To Close App!!!</string>
+    <!--TODO: Dialog alert Button -->
+    <string name="dialog_quit_negative_button">cancel</string>
+    <string name="dialog_quit_positive_button">OK</string>
+
+    <!--  TODO: Login Fragment -->
+    <string name="logging_progress_message">logging</string>
+    <string name="Type_Admin_Name">Type User IDNudity Number</string>
+    <string name="Type_Admin_Password">Type Admin Password</string>
+    <string name="ID_hint">ID</string>
+    <string name="password_hint">Password</string>
+    <string name="show_hint">Show</string>
+    <string name="hide_hint">Hide</string>
+    <string name="Login_Success">Login success</string>
+    <string name="Login_failed">Mack sure you type a correct ID and password or sign up first</string>
+    <string name="tryagain">Try again</string>
+
+    <!--  TODO: Website Fragment -->
+    <!-- Progress Dialog  titles -->
+    <string name="loading_progress_dialog_message">Loading...</string>
+
+    <!--  TODO: Contact us  vFragment -->
+    <!-- Progress Dialog  titles -->
+    <string name="choose_email">Choose an Email client:</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="contact_developer">Contact developer</string>
+
+
+    <!--  TODO: Admin TabeActivity -->
+    <string name="broadcast_tabe_lable">Broadcast</string>
+    <string name="my_broadcast_tabe_lable">My Broadcast</string>
+    <string name="insert_tabe_lable">Insert</string>
+    <string name="voting_tabe_lable">Vote</string>
+    <string name="questionnaire_tabe_lable">Questionnaire</string>
+    <string name="admin_info_tabe_lable">Your Info</string>
+
+    <!--  TODO:Broadcast Fragment -->
+    <string name="hi_greeting">Hi</string>
+    <string name="not_item_found">No item found</string>
+    <string name="nothing_to_search_it">Nothing to search it</string>
+
+    <!--  TODO:My Broadcast Fragment -->
+    <string name="sorry">Sorry..</string>
+
+    <!--  TODO:My Insert Fragment -->
+    <string name="ignore_case_for_broadcast">-قم بإختيار نوع التعميم-</string>
+    <string name="insert_seccfual">Insert successfully</string>
+    <string name="insert_failed">Insert Failed</string>
+    <string name="type_broadcast_lable">Type a broadcast lable</string>
+    <string name="choose_broadcast_type">Choose a broadcast type</string>
+    <string name="type_broadcast_contanet">Type a broadcast content</string>
+    <string name="broadcast_title_hint">Broadcast title</string>
+    <string name="content_hint">Content</string>
+    <string name="date_hint">Date :</string>
+    <string name="type_broadcast_date">Select a date for broadcast</string>
+    <string name="insert_broadcast">Insert broadcast</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="cal">cal</string>
+
+
+    <!--  TODO:Vote Fragment -->
+    <string name="nomination_no_hint">Nomination no: </string>
+    <string name="candidate1">First candidate</string>
+    <string name="candidate2">Second candidate</string>
+    <string name="candidate3">Third candidate</string>
+    <string name="candidate4">fours candidate</string>
+    <string name="candidate5">fifth candidate</string>
+    <string name="candidate6">six candidate</string>
+    <string name="candidate7">sevnth candidate</string>
+    <string name="candidate8">eight candidate</string>
+    <string name="candidate9">nine candidate</string>
+    <string name="candidate10">ten candidate</string>
+    <string name="attention_dialog_title">Delete!</string>
+    <string name="attention_message">You have already voted !</string>
+    <string name="connection_failed">Connection failed-try again</string>
+    <string name="ignore_case_for_degree">-إختار الدرجه-</string>
+    <string name="vote_date">Vote date</string>
+    <string name="insert_candidate">Insert candidate</string>
+
+
+    <!--  TODO:info user Fragment -->
+    <string name="update_progress_message">Updating...</string>
+    <string name="retype_user_name">Retype user name</string>
+    <string name="retype_password">Type a new password</string>
+    <string name="must_retype_password">Must repeat your new password</string>
+    <string name="name">Name   :</string>
+    <string name="user_name_hint">User name</string>
+    <string name="old_password_hint">Current password</string>
+    <string name="new_password_hint">New-password</string>
+    <string name="repeat_password_hint">Re-password</string>
+    <string name="current_pass_is_incorrect">The current password is incorrect</string>
+    <string name="passwords_do_not_match">The New and Confirm passwords must mach.Please re-type them.</string>
+    <string name="save_change">Save changes</string>
+    <string name="write_current_password">Write current password !</string>
+    <string name="pass_changed_successfully">Password changed successfully</string>
+
+
+    <!--  TODO:User Vote  Fragment -->
+    <string name="select_degree_for_first">Select degree for first candidate</string>
+    <string name="select_degree_for_second">Select degree for second candidate</string>
+    <string name="select_degree_for_third">Select degree for third candidate</string>
+    <string name="select_degree_for_fourth">Select degree for fourth candidate</string>
+    <string name="select_degree_for_fifth">Select degree for fifth candidate</string>
+    <string name="select_degree_for_six">Select degree for six candidate</string>
+    <string name="can_not_give_same_degree">You can\'t give employees same degree</string>
+    <string name="type_first_name">Type first name</string>
+    <string name="type_second_name">Type second name</string>
+    <string name="type_third_name">Type third name</string>
+    <string name="type_date">Type appointment date </string>
+    <string name="for_admin">For admin</string>
+    <string name="number_of_voter">Number of voters : </string>
+    <string name="voter_counter">0</string>
+
+
+    <!--  TODO:show Dialog -->
+    <string name="done_button">Done</string>
+    <string name="broadcast_single">Broadcast</string>
+    <string name="edit_broadcast">Edit broadcast</string>
+
+    <!--  TODO:show Dialog -->
+    <string name="cancel_button">Cancel</string>
+    <string name="save_button">Save</string>
+    <string name="user_id_dos_not_correct">This ID dose not correct</string>
+    <string name="password_dos_not_correct">Password dose not correct</string>
+    <string name="deleting_progress">Deleting...</string>
+    <string name="delete_successfully">Delete successfully</string>
+    <string name="delete_qution">Delete Broadcast ?</string>
+    <string name="delete_hint">Delete</string>
+    <string name="vote">vote</string>
+    <string name="degrees">Degrees</string>
+
+    <!--  TODO:browser activity -->
+
+    <string name="attintion_dialog_gu">Attention</string>
+    <string name="did_u_comp_qu">Have you completed the questionnaire correctly? You can not go back to this questionnaire again!</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="press_here">Press here</string>
+    <string name="you_have_already_submit_qu">You have already completed the questionnaire</string>
+    <string name="android_lollipop_material">Android | Lollipop | Material| Login | Design | Activity | Blog | Facebook | Google | Kitkat | Marshmallow | Google</string>
+
+    <!--  TODO:nimonation activity -->
+    <string name="title_activity_nomination">NominationActivity</string>
+    <string name="employees">Employees</string>
+    <string name="engineers">Engineers</string>
+    <string name="workers">Workers</string>
+
+
+    <!--  TODO:go to nimonation  -->
+
+    <string name="vote_now">Vote now</string>
+    <string name="vote_declaer">The voting process is the final stage of the selection of the ideal employee / worker, preceded by the nomination stage through the selection criteria approved by the Council of Ministers and the stage of screening candidates by the Committee.</string>
+    <string name="can_not_give_worker_same_degree">You can not give worker same degree</string>
+    <string name="sure_message">Are you sure of these degrees? You can not undo voting</string>
+    <string name="remedy2019">© Remedy 2019</string>
+    <string name="create_account">Create new account?</string>
+    <string name="forget_password">Forget your password</string>
+    <string name="emergency_situation">Emergency situation</string>
+    <string name="title_activity_emergancy_map">Map</string>
+    <string name="title_activity_home_">Home Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="full_name">Full name</string>
+    <string name="_249">+249</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="signup">Signup</string>
+    <string name="answer_qution">Answer qution</string>
+    <string name="login_disc">To use Remedy app you have sign in to your account</string>
+    <string name="have_account">Have you account?</string>
+    <string name="registration">Create account</string>
+    <string name="title_hospitals">hospitals</string>
+    <string name="title_Laps">Laps</string>
+    <string name="title_doctors">Doctors</string>
+    <string name="recover_pass">Recover password</string>
+    <string name="reset_passord">Reset Password</string>
+    <string name="recover_your_pass">Password recovery</string>
+    <string name="type_id_num">Type an ID number</string>
+    <string name="type_password">Type a password</string>
+    <string name="Specialization">Specialization</string>
+    <string name="title_appointments">appointments</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_code">category</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="call">Call</string>
+    <string name="appointment">appointment</string>
+    <string name="time">Time :</string>
+    <string name="appointment_num">appointment number</string>
+    <string name="appo_price">appointment price</string>
+    <string name="patient_name">Patient :</string>
+    <string name="work_place">Work place</string>
+    <string name="title_id">ID :</string>
+    <string name="title_name">Name :</string>
+    <string name="title_specialization">Specialization :</string>
+    <string name="title_phone">Phone :</string>
+    <string name="title_rate">Rate :</string>
+    <string name="title_location">Location :</string>
+    <string name="title_address">Address :</string>
+    <string name="get_appointment">Get appointment</string>
+    <string name="title_price">Price :</string>
+    <string name="sdg">SDG</string>
+    <string name="doc_name">Doctor</string>
+    <string name="title_doc_name">Doctor name</string>
+    <string name="date_format">dd-mm-yyyy</string>
+    <string name="time_format">HH:MM</string>
+    <string name="pan">PAN</string>
+    <string name="pan_hint">must be 16 or 19 digits</string>
+    <string name="ex_date_hint">YYMM</string>
+    <string name="expire">Expire :</string>
+    <string name="ipin_hint">****</string>
+    <string name="ipin">****</string>
+    <string name="title_activity_map">Map</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="edit_appointment">Edit appointment</string>
+    <string name="payment_qution">Do you want to pay for the appointment now?</string>
+    <string name="later_button">Later</string>
+    <string name="alert_pay_title">Electronic payment!</string>
+    <string name="amount">Amount</string>
+    <string name="exp_date">Expire date</string>
+    <string name="pay">Pay</string>
+    <string name="electronic_payment">Electronic payment</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="show_places_filed">Show hospital filed</string>
+    <string name="select_qustion">Select a qustion</string>
+    <string name="pass_dosnot_much">Passwords d\'snot much</string>
+    <string name="enter_pass">Please enter password</string>
+    <string name="phone_less_than_ten">Phone less than 10 digits</string>
+    <string name="type_patient_name">Please enter patient name</string>
+    <string name="type_patient_phone">Please enter patient phone number</string>
+    <string name="enter_pan">Please enter card PAN</string>
+    <string name="enter_ipin">Please enter ipin correctly</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="icu">ICU</string>
+    <string name="alert_icu_room">Get an ICU room</string>
+    <string name="icu_qution">Make sure you want to get an ICU room ?</string>
+    <string name="icu_attintion_title">ICU attention</string>
+    <string name="icu_roul">You must go to hospital immeditlay or ICU room gone in maximam 24 hour !</string>
+    <string name="state">The state</string>
+    <string name="women">Women and obstetrics</string>
+    <string name="neurologists">Neurologists</string>
+    <string name="general">General</string>
+    <string name="children">Children</string>
+    <string name="surgery">Surgery</string>
+    <string name="title_state">The state :</string>
+    <string name="title_activity_hospitals">HospitalsActivity</string>
+    <string name="tab_text_1" translatable="false">Tab 1</string>
+    <string name="tab_text_2" translatable="false">Tab 2</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="queue_id">Queue id</string>
+    <string name="attion_queue_id_message">You will use this number for all</string>
+    <string name="account">account</string>
+    <string name="patients_list">Patients list</string>
+    <string name="patient">Patient</string>
+    <string name="title_ptients">Number patients :</string>
+    <string name="doctor_profile">Doctor profile</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="tests">Tests</string>
+    <string name="results">Results</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="midicine">Medicine</string>
+    <string name="pharmacist_note">Pharmacist note</string>
+    <string name="title_no_appoint">Appointment :</string>
+    <string name="patient_lable">Patient :</string>
+    <string name="title_my_profile">My profile</string>
+    <string name="doctor">Doctor</string>
+    <string name="patients">Patients</string>
+    <string name="medicine">Medicine</string>
+    <string name="check_patient">Check patient</string>
+    <string name="my_appointments">My appointments</string>
+    <string name="update_info">Update info</string>
+    <string name="title_activity_laboratory_user">Laboratory user</string>
+    <string name="title_activity_pharmacist_user">PharmacistUserActivity</string>
+    <string name="take_patient">Take patient</string>
+    <string name="pharmacist">Pharmacists</string>
+    <string name="labortory">Labortory</string>
+    <string name="title_patient">Patient</string>
+    <string name="title_report">Reports</string>
+    <string name="one_person">number of person</string>
+    <string name="hospital">hospital</string>
+    <string name="from">From :</string>
+    <string name="to">To :</string>
+    <string name="submit">Submit</string>
+    <string name="symptoms_lable">Symptoms :</string>
+    <string name="tests_lable">Tests :</string>
+    <string name="results_lable">Results :</string>
+    <string name="diagnosis_lable">Diagnosis :</string>
+    <string name="medicine_lable">Medicine</string>
+    <string name="pharmacist_note_lable">Pharmacist note :</string>
+    <string name="queue_id_lable">Queue ID :</string>
+    <string name="doctor_id_lable">Doctor ID :</string>
+    <string name="patient_info">Patient info</string>
+    <string name="khartum">Khartoum</string>
+    <string name="select_state">-Select a state</string>
+    <string name="bahre">Bahre</string>
+    <string name="omdurman">Omdurman</string>
+    <string name="select_category">-Select user category-</string>
+    <string name="patient_user">Patient</string>
+    <string name="hospital_user">Hospital</string>
+    <string name="doctor_user">Doctor</string>
+    <string name="labtorty_user">Laprotry</string>
+    <string name="pharmasict_user">Pharmacist</string>
+    <string name="please_select_state">Please select state</string>
+    <string name="please_select_user_category">Please select user category</string>
+    <string name="title_pharmacy">Pharmacies</string>
+    <string name="no_appointment_ava">No appointment</string>
+    <string name="my_diagnisis">My dignosis</string>
+    <string name="no_meet">No doctors meet</string>
+    <string name="doctor_lable">Doctor :</string>
+    <string name="date_lable">Date :</string>
+    <string name="enter_your_ipin">Please enter your IPIN</string>
+    <string name="enter_pan_correctly" >Please enter PAN correctly, 16 or 19 digits</string>
+    <string name="payment_failed">Payment faild..try again</string>
+    <string name="display_failed">Display failed</string>
+    <string name="old_date">Date you enter it is old !</string>
+    <string name="patient_num">Patient number :</string>
+    <string name="appointments_num">Appointment number :</string>
+    <string name="report_by_date">Report by date</string>
+    <string name="doctors_list">Doctor list :</string>
+    <string name="doctor_num">Doctors number :</string>
+    <string name="doctors_list_sp">--Doctors list--</string>
+    <string name="type_from_date">Please enter \'from\' date</string>
+    <string name="type_to_date">Please enter \'To\' date !</string>
+    <string name="nothing_to_filter_it">No things</string>
+    <string name="no_thing_select_it">No things selected to filter :</string>
+    <string name="filter_it">Filter it by:</string>
+    <string name="labs">Labs</string>
+    <string name="delete_appointment">Are you sure you want to delete this appointment?</string>
+    <string name="phone">Phone number</string>
+    <string name="doc_phone">Doctor phone</string>
+    <string name="appoint_address">Appointment address</string>
+    <string name="delete_filed">Delete filed!</string>
+    <string name="todo">TODO</string>
+    <string name="period_hint">Period_hint :</string>
+    <string name="period">-Period-</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="choose_period">Choose period!</string>
+
+
+</resources>

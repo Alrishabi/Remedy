@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            >
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+                <EditText
+                    android:id="@+id/et_pan"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="40dp"
+                    android:maxLength="19"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/pan"
+                    android:textColorHint="@color/colorPrimaryLight"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:drawablePadding="5dp"
+                    android:inputType="phone"
+                    android:textSize="20sp"
+                    android:selectAllOnFocus="true"
+                    tools:ignore="RtlHardcoded"
+                    android:background="#39dcdbdb"
+                    />
+                <EditText
+                    android:id="@+id/et_date"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:gravity="center"
+                    android:hint="@string/exp_date"
+                    android:textColorHint="@color/colorPrimaryLight"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:drawablePadding="5dp"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"
+                    android:background="#39dcdbdb"
+                    />
+
+                <EditText
+                    android:id="@+id/et_ipin"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/ipin"
+                    android:inputType="numberPassword"
+                    android:maxLength="4"
+                    android:textColorHint="@color/colorPrimaryLight"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:drawablePadding="5dp"
+                    android:textSize="20sp"
+                    android:selectAllOnFocus="true"
+                    tools:ignore="RtlHardcoded"
+                    android:background="#39dcdbdb"
+                    />
+                <EditText
+                    android:id="@+id/et_amount"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:hint="@string/amount"
+                    android:textColorHint="@color/colorPrimaryLight"
+                    android:drawablePadding="5dp"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:selectAllOnFocus="true"
+                    android:background="#39dcdbdb"
+                     />
+
+                <Button
+                    android:id="@+id/btn_pay"
+                    style="?android:textAppearanceSmall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/ripple_effect"
+                    android:textSize="20dp"
+                    android:text="@string/pay"
+                    android:textColor="#eceae9"
+                    android:textStyle="bold"
+                    tools:ignore="SpUsage" />
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

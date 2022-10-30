@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/respons_dialog_shape"
+        android:orientation="vertical"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/email_login_form"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                                          >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/edit_appointment"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:textSize="30sp"
+                            />
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/rl_queue_id"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <EditText
+                            android:lines="1"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:hint="@string/patient_name"
+                            android:id="@+id/et_patient_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:textColor="@color/colorPrimaryLight"
+                            android:selectAllOnFocus="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="@string/patient_name"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <EditText
+                            android:maxLength="10"
+                            android:inputType="phone"
+                            android:lines="1"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:hint="@string/phone"
+                            android:id="@+id/et_phone_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:textColor="@color/colorPrimaryLight"
+                            android:drawablePadding="5dp"
+                            android:selectAllOnFocus="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="@string/phone"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <EditText
+                            android:maxLength="19"
+                            android:lines="1"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/date_format"
+                            android:id="@+id/et_date"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:textColor="@color/colorPrimaryLight"
+                            android:drawablePadding="5dp"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:textStyle="bold"
+                            android:selectAllOnFocus="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="@string/date_hint"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <EditText
+                            android:maxLength="19"
+                            android:lines="1"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/title_doc_name"
+                            android:enabled="false"
+                            android:id="@+id/doc_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:textColor="@color/colorPrimaryLight"
+                            android:drawablePadding="5dp"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:textStyle="bold"
+                            android:selectAllOnFocus="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="@string/title_doc_name"
+                            android:textStyle="bold|italic"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <EditText
+                            android:maxLength="19"
+                            android:lines="1"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/doc_phone"
+                            android:enabled="false"
+                            android:id="@+id/doc_phone"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:textColor="@color/colorPrimaryLight"
+                            android:drawablePadding="5dp"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:textStyle="bold"
+                            android:selectAllOnFocus="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="@string/doc_phone"
+                            android:textStyle="bold|italic"/>
+
+
+                        <ImageView
+                            android:padding="10dp"
+                            android:id="@+id/iv_add"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignEnd="@+id/doc_phone"
+                            app:srcCompat="@drawable/ic_call_black_24dp"
+                            android:layout_alignRight="@+id/doc_phone" />
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <EditText
+                            android:maxLength="19"
+                            android:lines="1"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/appo_price"
+                            android:enabled="false"
+                            android:id="@+id/ed_price"                    android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:textColor="@color/colorPrimaryLight"
+                            android:drawablePadding="5dp"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:textStyle="bold"
+                            android:selectAllOnFocus="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="@string/appo_price"
+                            android:textStyle="bold|italic"/>
+
+                        <TextView
+                            android:gravity="center"
+                            android:textSize="20sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:text="@string/sdg"
+                            android:layout_gravity="center"
+                            android:layout_alignEnd="@+id/ed_price"
+                            android:layout_alignRight="@+id/ed_price"
+                            android:layout_centerInParent="true"/>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp">
+
+                        <EditText
+                            android:maxLength="19"
+                            android:lines="1"
+                            android:layout_marginTop="@dimen/margin_edit_text"
+                            android:paddingStart="@dimen/padding_edit_text_left_right"
+                            android:paddingEnd="@dimen/padding_edit_text_left_right"
+                            android:background="@drawable/border_edit_text"
+                            android:hint="@string/appoint_address"
+                            android:enabled="false"
+                            android:id="@+id/et_appo_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:textColor="@color/colorPrimaryLight"
+                            android:drawablePadding="5dp"
+                            android:textSize="20sp"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:textStyle="bold"
+                            android:selectAllOnFocus="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/padding_text_view_left_right"
+                            android:layout_marginEnd="@dimen/padding_text_view_left_right"
+                            android:layout_marginTop="@dimen/margin_text_view"
+                            android:background="@drawable/label_shape"
+                            android:paddingLeft="2dp"
+                            android:paddingRight="2dp"
+                            android:textColor="@color/colorPrimary"
+                            android:text="@string/appoint_address"
+                            android:textStyle="bold|italic"/>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="40dp"
+            android:padding="5dp">
+
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/save"
+                style="?android:textAppearanceSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_effect_green"
+                android:textSize="20dp"
+                android:text="@string/save_button"
+                android:textColor="#eceae9"
+                android:padding="5dp"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+
+            <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_cancel"
+                style="?android:textAppearanceSmall"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripple_effect"
+                android:textSize="20dp"
+                android:text="@string/cancel"
+                android:textColor="#eceae9"
+                android:textStyle="bold"
+                tools:ignore="SpUsage" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

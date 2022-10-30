@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/mRoot"
+    >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/email_login_form"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <EditText
+                    android:id="@+id/et_id"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="@string/ID_hint"
+                    android:textColorHint="@color/colorPrimaryLight"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:drawablePadding="5dp"
+                    android:inputType="number"
+                    android:textSize="20sp"
+                    android:selectAllOnFocus="true"
+                    tools:ignore="RtlHardcoded"
+                    android:background="#39dcdbdb"
+                    />
+
+                <Spinner
+                    android:id="@+id/sp_security_qu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginTop="20dp"/>
+
+
+
+                <EditText
+                    android:id="@+id/et_answer"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="@string/answer_qution"
+                    android:textColorHint="@color/colorPrimaryLight"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:drawablePadding="5dp"
+                    android:textSize="20sp"
+                    android:selectAllOnFocus="true"
+                    tools:ignore="RtlHardcoded"
+                    android:background="#39dcdbdb"
+                    />
+
+
+                <EditText
+                    android:visibility="visible"
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="@string/password_hint"
+                    android:textColorHint="@color/colorPrimaryLight"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:drawablePadding="5dp"
+                    android:inputType="textPassword"
+                    android:textSize="20sp"
+                    android:selectAllOnFocus="true"
+                    tools:ignore="RtlHardcoded"
+                    android:background="#39dcdbdb"
+                    />
+
+                <EditText
+                    android:visibility="visible"
+                    android:id="@+id/et_password_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="40dp"
+                    android:ems="10"
+                    android:hint="@string/confirm_password_hint"
+                    android:textColorHint="@color/colorPrimaryLight"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:drawablePadding="5dp"
+                    android:inputType="textPassword"
+                    android:textSize="20sp"
+                    android:selectAllOnFocus="true"
+                    tools:ignore="RtlHardcoded"
+                    android:background="#39dcdbdb"
+                    />
+
+
+                <Button
+                    android:visibility="visible"
+                    android:id="@+id/b_reset_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="70dp"
+                    android:background="@drawable/ripple_effect"
+                    android:textSize="20dp"
+                    android:text="@string/reset_passord"
+                    android:textColor="#eceae9"
+                    android:textStyle="bold"
+                    tools:ignore="SpUsage" />
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+</LinearLayout>
